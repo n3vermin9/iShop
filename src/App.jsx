@@ -26,7 +26,7 @@ const [cartItems, setCartItems] = useState(() => {
   }, [cartItems]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/iShop">
       <Routes>
         <Route
           path="/"
